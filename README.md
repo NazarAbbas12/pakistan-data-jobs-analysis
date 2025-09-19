@@ -1,95 +1,99 @@
-Pakistan Data Jobs Analysis
+# 🇵🇰 Pakistan Data Jobs Analysis  
 
-Exploratory Data Analysis (EDA) of Data Analyst, Data Engineer, and Data Scientist job postings in Pakistan. The project explores the job market through companies, locations, platforms, and in-demand skills, along with trends over time.
+📊 Exploratory Data Analysis (EDA) of **Data Analyst, Data Engineer, and Data Scientist** job postings in Pakistan.  
+The project explores the job market through **companies, locations, platforms, and in-demand skills**, along with **trends over time**.  
 
-📌 Project Overview
+---
 
-The data job market is rapidly growing in Pakistan. This project aims to uncover insights about hiring demand, platforms, locations, and the top technical skills required for data roles.
+## 📌 Project Overview  
 
-Objectives:
+The data job market is rapidly growing in Pakistan.  
+This project uncovers insights about **hiring demand, job platforms, locations, and the technical skills** required for data roles.  
 
-Identify which companies are hiring the most.
+---
 
-Analyze job postings by location and platform.
+## 🎯 Objectives  
 
-Understand skills demand for Data Analysts, Data Engineers, and Data Scientists.
+✔️ Identify which **companies** are hiring the most  
+✔️ Analyze job postings by **location** and **platform**  
+✔️ Understand **skills demand** for Data Analysts, Data Engineers, and Data Scientists  
+✔️ Explore how **skill demand trends** change over time  
 
-Explore how skill demand trends change over time.
 
-📂 Project Structure
+
+# 📂 Project Structure
 
 ├── 1_EDA.ipynb → EDA of companies, locations, and platforms  
 ├── 2_Skills_Demand.ipynb → Analysis of top skills for Data Analyst, Data Engineer, and Data Scientist roles  
 ├── 3_Skills_Trend.ipynb → Line plots of trending skills in Pakistan over time  
 ├── images/  
-|   ├── eda_jobs_by_company.png  
-|   ├── eda_jobs_by_location.png  
-|   ├── eda_jobs_by_platform.png  
-|   ├── eda_dataAnalyst_benefits_pie.png  
-|   ├── skills_demand.png  
-|   ├── skills_trend.png  
+│   ├── eda_jobs_by_company.png  
+│   ├── eda_jobs_by_location.png  
+│   ├── eda_jobs_by_platform.png  
+│   ├── job_benefits_pie.png  
+│   ├── skills_demand.png  
+│   ├── skills_trend.png  
+└── README.md  
 
 
-🔎 Analysis & Insights
-1. Exploratory Data Analysis (EDA)
+## 🔎 Analysis & Insights  
 
-Top Hiring Companies: Identified the companies with the highest number of job listings.
+### 1️⃣ Exploratory Data Analysis (EDA)  
+- **Top Hiring Companies**: Identified companies with the most job listings  
+- **Job Locations**: Distribution of jobs across different Pakistani cities  
+- **Job Platforms**: Comparison of platforms (LinkedIn, Rozee, Indeed, etc.)  
 
-Job Locations: Analyzed the distribution of jobs across different cities in Pakistan.
+### 2️⃣ Skills Demand  
+- **Data Analyst** → SQL, Excel, Power BI dominate  
+- **Data Engineer** → Python, SQL, Spark, AWS in high demand  
+- **Data Scientist** → Python, Machine Learning, Deep Learning lead the way  
 
-Job Platforms: Compared platforms (LinkedIn, Rozee, Indeed, etc.) for job postings.
+### 3️⃣ Skills Trends  
+- Month-by-month demand for SQL, Python, Excel, Power BI  
+- **SQL & Excel** remain stable; **Power BI & Python** show upward trends  
 
-2. Skills Demand
+---
 
-Data Analyst: Strong demand for SQL, Excel, and Power BI.
+## 📊 Key Visuals  
 
-Data Engineer: High demand for Python, SQL, Spark, and AWS.
+📌 Some of the main charts & plots:  
 
-Data Scientist: Machine Learning, Deep Learning, and Python dominate.
+- 🏢 **Top Hiring Companies**  
+- 📍 **Job counts by location (cities)**  
+- 🌐 **Platforms with most job postings**  
+- 📈 **Top skills per role (Analyst, Engineer, Scientist)**  
+- 📉 **Skill demand trends over time**  
+- 🍩 **Job benefits (remote, degree requirement, health insurance)**  
 
-3. Skills Trends
 
-Visualized month-by-month demand for top skills (e.g., SQL, Python, Excel, Power BI).
+---
 
-Observed stable demand for SQL/Excel, with growth in Power BI and Python.
+## 🛠️ Tech Stack  
 
-📊 Visuals
+- 🐍 Python (Pandas, Matplotlib, Seaborn)  
+- 📓 Jupyter Notebook  
+- 🧹 Data Cleaning & Visualization  
 
-Some of the key visualizations include:
+---
 
-Bar charts of top hiring companies.
+## ✅ Conclusion  
 
-Job counts by city (location).
+- **Karachi & Lahore** dominate job postings for data roles in Pakistan  
+- **LinkedIn** is the leading platform for Data Analyst jobs  
+- **SQL & Python** are essential across all data roles  
+- **Power BI (Analysts)** and **Cloud/Big Data tools (Engineers)** show strong growth  
 
-Platforms with most job postings.
+---
 
-Top skills for each role (Analyst, Engineer, Scientist).
+## 🙏 Acknowledgements  
 
-Line plots of trending skills over time.
+Inspired by **Luke Barousse’s Python for Data Analysts course**.  
+Some code patterns were adapted, but the **dataset, analysis, and insights (focused on Pakistan)** are my own.  
 
-🛠️ Tech Stack
+---
 
-Python (pandas, matplotlib, seaborn)
+## 🚀 About Me  
 
-Jupyter Notebook
+👋 Hi, I’m **Nazar Abbas** — a Software Engineering student passionate about **Data Science, SQL, and Data Analysis**.  
+This project is part of my learning journey to build a strong foundation in **Python + SQL + Data Analytics**.  
 
-Data Cleaning + Visualization
-
-✅ Conclusion
-
-Karachi and Lahore dominate job postings for data roles in Pakistan.
-
-LinkedIn is the leading platform for Data Analyst jobs.
-
-SQL and Python are essential across all roles, but role-specific skills vary.
-
-Power BI (for Analysts) and Cloud/Big Data tools (for Engineers) show strong demand growth.
-
-🙏 Acknowledgements
-
-This project was inspired by Luke Barousse’s Python for Data Analysts course. While some code patterns were adapted from the course, the dataset, analysis, and insights (focused on the Pakistan job market) are my own.
-
-🚀 About Me
-
-I’m Nazar Abbas, a Software Engineering student passionate about Data Science, SQL, and Data Analysis.
-This project is part of my learning journey to build a strong foundation in Python + SQL + Data Analytics.
