@@ -88,7 +88,7 @@ This project uncovers insights about **hiring demand, job platforms, locations, 
 ## 🙏 Acknowledgements  
 
 Inspired by **Luke Barousse’s Python for Data Analysts course**.  
-Some code patterns were adapted, but the **dataset, analysis, and insights (focused on Pakistan)** are my own.  
+Some code patterns were adapted, but the **analysis, and insights (focused on Pakistan)** are my own.  
 
 ---
 
